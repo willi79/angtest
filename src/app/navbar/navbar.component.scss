@@ -1,0 +1,158 @@
+
+
+.nav_a{
+    width:100%;
+    height:75px;
+    background-color:pink;
+    margin:0;
+    padding:0;
+    position:fixed;
+    top:0;
+
+}
+
+.nav_a ul{
+    padding:0;
+    margin:0;
+}
+
+
+.nav_a ul li {
+    
+    margin-left:0px;
+    list-style-type: none;
+    color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.left_class{
+    float:left;
+    padding: 30px 0px 15px 30px;
+}
+
+.center_class{
+    float:right;
+    margin-right:20px;
+    padding: 0px 0px;
+    margin-bottom:0px;
+    right:43%;
+    text-align:left;
+    position:absolute;
+}
+
+.right_class{
+    float:right;
+    margin-right:20px;
+    padding: 30px 0px;
+    margin-bottom:0px;
+}
+
+.searchform{
+    width:100px;
+    height: 9px;
+    font-size:13px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 0px 15px 0px;
+}
+
+.nav_a ul li a{
+    color:whitesmoke;
+    text-decoration:none;
+}
+
+h1{
+    margin:30px 0px;
+    text-align:center;
+}
+
+.icon_yotang{
+    font-size: 80px;
+    width: 80px;
+    margin-bottom:20px;
+    margin-top:0px;
+    padding-top:0px;
+}
+
+.dropdown{
+    display:none;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .nav_a{
+        width:100%;
+        height:30px;
+        background-color:pink;
+        margin:0;
+        padding:0;
+        position:fixed;
+        top:0;
+    
+    }
+
+    .left_class{
+        display:none;
+    }
+    
+    .center_class{
+        float:right;
+        margin: 0 0;
+        padding: 0px 0px;
+        margin-bottom:0px;
+        text-align:left;
+        position:static;
+    }
+    
+    .right_class{
+        display:none;
+    }
+
+    .icon_yotang{
+        font-size: 35px;
+        width: 35px;
+        margin-bottom:5px;
+        margin-top:0px;
+        padding-top:0px;
+    }
+
+    .dropdown{
+        background-color: Transparent;
+        border: none;
+        outline:none;
+        overflow:hidden;
+        background-repeat:no-repeat;
+        color:white;
+        float:left;
+        margin:1px 5px;
+        padding: 2px 0;
+        display:list-item;
+        height: 30px;
+        width:15px;
+    }
+    
+    .dropdownmain{
+        width:20px;
+        height:30px;
+        background-color:transparent;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        padding:0;
+        outline:none;
+        border:none;
+        color:whitesmoke;
+    }
+
+    .dropdownmaindiv{
+        width:50px;
+        height:35px;
+        background-color:transparent;
+        margin:0;
+        padding:0;
+        top:0;
+        outline:none;
+        border:none;
+    }
+
+    
+}
