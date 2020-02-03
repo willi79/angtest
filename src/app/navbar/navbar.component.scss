@@ -98,7 +98,8 @@ h1{
     height:100%;
     background-color:pink;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-top: 30px;
+    margin: 0px;
+    padding:0;
     position:fixed;
 }
 
@@ -119,8 +120,25 @@ h1{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.up_class {
+    margin-left:0px;
+    list-style-type: none;
+    text-decoration: none;
+    color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left:0px;
+    margin-top:20px;
+}
 
-
+.up_class a{
+    margin-left:0px;
+    list-style-type: none;
+    text-decoration: none;
+    color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left:0px;
+    margin-top:20px;
+}
 @media only screen and (max-width: 1000px) {
 
     .center_class{
@@ -197,8 +215,8 @@ h1{
         background-repeat:no-repeat;
         color:white;
         float:left;
-        margin:1px 5px;
-        padding: 2px 0;
+        margin:0px;
+        padding: 0px;
         display:block;
         height: 30px;
         width:45px;
@@ -208,7 +226,7 @@ h1{
         width:30px;
         height:30px;
         background-color:transparent;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         margin-left: 5px;
         padding:0;
         outline:none;

@@ -46,7 +46,7 @@ export class AppComponent implements OnInit {
         $("#dropdownitems").css('display', 'block');
       });
   
-      $(".content_0").click(
+      $(".dropdown").mouseleave(
         function() {
           $("#dropdownitems").css('display', 'none');
         });
