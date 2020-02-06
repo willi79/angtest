@@ -154,6 +154,7 @@ h1{
     margin: 0px;
     padding:0;
     position:fixed;
+    overflow:hidden;
 }
 
 #dropdownmain1{
@@ -225,8 +226,8 @@ h1{
 }
 
 .bot_class {
-    bottom:2;
-    position:absolute;
+    bottom:0;
+    position:fixed;
     margin-left:0px;
     list-style-type: none;
     text-decoration: none;
