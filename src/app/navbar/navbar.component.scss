@@ -52,6 +52,21 @@ mark {
 #what{
     margin-top:54px;  
 }
+.left_class_hover_2{
+    float:left;
+    padding: 30px 150px 15px 10px;
+    font-size:15px;
+    margin-top:60px;
+    margin-left:70px;
+    list-style-type: none;
+    color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration:none;
+}
+.left_class_hover_2 a{
+    text-decoration:none;
+    color:pink;
+}
 
 .left_class_hover_child{
     float:left;
@@ -180,7 +195,7 @@ h1{
 .op2{
     display:none;
     width:80%;
-    height:200px;
+    height:250px;
     background-color:whitesmoke;
     margin-top:5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
